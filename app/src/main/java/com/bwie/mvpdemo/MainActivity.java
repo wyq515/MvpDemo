@@ -22,7 +22,11 @@ import com.bwie.mvpdemo.presenter.HomePresenter;
 import com.stx.xhb.androidx.XBanner;
 
 import java.util.List;
-
+/**
+ *@auther: Administrator  王亚奇
+ *@Time:上午 11:52
+ *@Description:
+ */
 public class MainActivity extends BaseActivity<HomePresenter> implements IHomeContract.IView {
 
 
@@ -59,6 +63,10 @@ public class MainActivity extends BaseActivity<HomePresenter> implements IHomeCo
         return new HomePresenter();
     }
 
+    /**
+     * 绑定布局
+     * @return
+     */
     @Override
     protected int bindLayoutId() {
         return R.layout.activity_main;
